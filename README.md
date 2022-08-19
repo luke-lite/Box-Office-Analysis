@@ -9,11 +9,9 @@ Using the data I provide, the head of the Microsoft studio will be able to make 
 
 ## Table of Contents
 - [The Data](#The-Data)
-    - [Data Sources](#Data-Sources)
-    - [Data Selection](#Data-Selection)
-    - [Data Limitations](#Data-Limitations)
 - [Data Analysis](#Data-Analysis)
 - [Results](#Results)
+- [Next Steps](#Next-Steps)
 
 ## The Data
 
