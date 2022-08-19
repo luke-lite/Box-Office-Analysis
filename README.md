@@ -7,6 +7,14 @@ My project aims to assist Microsoft in starting a movie studio. Through explorat
 
 Using the data I provide, the head of the Microsoft studio will be able to make more informed decisions regarding what kind of movies the studio should focus on making.
 
+## Table of Contents
+- [The Data](#The-Data)
+    - [Data Sources](#Data-Sources)
+    - [Data Selection](#Data-Selection)
+    - [Data Limitations](#Data-Limitations)
+- [Data Analysis](#Data-Analysis)
+- [Results](#Results)
+
 ## The Data
 
 ### Data Sources
