@@ -44,13 +44,17 @@ After cleaning and preparing the data, there were 1,271 movies available to anal
 
 ![budget_reg](https://github.com/luke-lite/Box-Office-Analysis/blob/main//plots/budget_reg.png?raw=true)
 
-**Genre:** Genre analysis focused on two compnents: the number of genres per movie, and the performance of the individual genres. The genre data comes from IMDB, which limits a movie to a maximum of 3 genres. This box-and-whisker plot shows the relationship between number of genres and worldwide gross revenue. Outliers have been removed for readability, with the mean included to demonstrate the relative weight of the missing outliers.
+**Genre:** Genre analysis focused on three compnents: the number of genres per movie, the performance of individual genres, and the best genre pairings. The genre data comes from IMDB, which limits a movie to a maximum of 3 genres. This box-and-whisker plot shows the relationship between number of genres and worldwide gross revenue. Outliers have been removed for readability, with the mean included to demonstrate the relative weight of the missing outliers.
 
 ![genre_count_graph](https://github.com/luke-lite/Box-Office-Analysis/blob/main//plots/genre_count_graph.png?raw=true)
 
 Next was the analysis of individual genres. There was a high degree of variance among the top-performing genres, suggesting that the specific genre is less important than having multiple genres.
 
 ![top_genres_barplot](https://github.com/luke-lite/Box-Office-Analysis/blob/main//plots/top_genres_barplot.png?raw=true)
+
+Last was identifying the top genre pairings among movies with 3 genres. All 6 of the top pairings included Adventure, and 4 included Action, suggesting that the best pairing is Action-Adventure plus one additional top genre.
+
+![genre_pairs_barplot](https://github.com/luke-lite/Box-Office-Analysis/blob/main//plots/genre_pairs_barplot.png?raw=true)
 
 **Director:** This box-and-whisker plot shows the worldwide gross revenue of movies by directors grouped by the total number of movies they have directed as of the date of data collection. The data suggests that directors with a minimum of 3 movies directed perform better than those with 2 or less movies directed.
 
