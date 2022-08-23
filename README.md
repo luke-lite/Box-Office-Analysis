@@ -12,6 +12,7 @@ Using the data I provide, the head of the Microsoft studio will be able to make 
 - [Data Analysis](#Data-Analysis)
 - [Results](#Results)
 - [Next Steps](#Next-Steps)
+- [Repository Structure](#Repository-Structure)
 
 ## The Data
 
@@ -88,6 +89,7 @@ Directorial analysis only considered the total number of movies directed at the 
 
 In addition, directorial analysis should include verifying that a directors previous experience matches the other recommended criteria: higher production budgets and movies with broad appeal.
 
+## Repository Structure
 ```
 ├── plots
 ├── zipped_data
