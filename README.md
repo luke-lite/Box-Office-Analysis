@@ -87,3 +87,13 @@ The genre analysis examined individual genres, but did not consider what types o
 Directorial analysis only considered the total number of movies directed at the time of data collection. Ideally, the analysis should include data on the number of movies a director had made prior to the release of each specific movie, as well as analysis on the likelihood of a director's financial success based on the performance of their past movies, but this would also require a great deal more data collection and preparation.
 
 In addition, directorial analysis should include verifying that a directors previous experience matches the other recommended criteria: higher production budgets and movies with broad appeal.
+
+```
+├── plots
+├── zipped_data
+├──.gitignore
+├── Microsoft Movie Studio Project.ipynb
+├── README.md
+├── movie_clapper.jpg
+├── presentation.pdf
+```
