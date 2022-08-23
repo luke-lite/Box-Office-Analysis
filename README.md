@@ -1,4 +1,6 @@
 # Box-Office-Analysis
+## Luke DiPerna
+### August, 2022
 ![movie_clapper](https://github.com/luke-lite/Box-Office-Analysis/blob/main/movie_clapper.jpg?raw=true)
 
 ## Project Goal
@@ -66,9 +68,13 @@ Production budget had the highest correlation to gross revenue of all available 
 
 ### Genre:
 
-For the genre analysis, I examined both total genre count and individual genre performance. For genre count, the data showed a much higher mean and median gross revenue for movies with at least 3 genres. This suggests that movies with a broader appeal and a bigger reach will earn significantly more revenue than movies with a more narrow focus.
+For the genre analysis, I examined total genre count, individual genre performance, and best genre pairings.
 
-When examining individual genres, there was a great deal of overlap between the genres with the highest production budgets and gross revenues. The genres with the highest median gross revenue were, in order: Animation, Adventure, Musical, Sci-Fi, Action, Fantasy. However, the variance and number of data points for each genre was wildly inconsistent. In particular, Musical only consisted of 6 movies. This indicates that the data is either unreliable, or that the genre is undersaturated in the current market, which is something that could be capitalized on. 
+For genre count, the data showed a much higher mean and median gross revenue for movies with at least 3 genres. This suggests that movies with a broader appeal and a bigger reach will earn significantly more revenue than movies with a more narrow focus.
+
+When examining individual genres, there was a great deal of overlap between the genres with the highest production budgets and gross revenues. The genres with the highest median gross revenue were, in order: Animation, Adventure, Musical, Sci-Fi, Action, Fantasy. However, the variance and number of data points for each genre was highly inconsistent. In particular, Musical only consisted of 6 movies. This indicates that the data is either unreliable, or that the genre is undersaturated in the current market, which is something that could be capitalized on.
+
+Examining the top genre combinations revealed that among movies with 3 genres, Action and Adventure were the 2 highest represented genres. These genres, when paired with another top genre such as Sci-Fi, Animation, or Comedy, outperformed all other combinations.
 
 ### Director:
 
@@ -83,11 +89,9 @@ The dataset does not include financial information on movies released on streami
 
 The dataset does not include consistent data on revenue and production budget, which limited the number of movies that could be analyzed. Ideally, more data collection should be done to improve the accuracy of the data.
 
-The genre analysis examined individual genres, but did not consider what types of genres are most often paired together. It is possible that certain combinations of genres are more likely to have success than others.
-
 Directorial analysis only considered the total number of movies directed at the time of data collection. Ideally, the analysis should include data on the number of movies a director had made prior to the release of each specific movie, as well as analysis on the likelihood of a director's financial success based on the performance of their past movies, but this would also require a great deal more data collection and preparation.
 
-In addition, directorial analysis should include verifying that a directors previous experience matches the other recommended criteria: higher production budgets and movies with broad appeal.
+In addition, directorial analysis should include verifying that a directors previous experience matches the other recommended criteria: higher production budgets and movies with broad appeal that fit the correct genre pairings.
 
 ## Repository Structure
 ```
